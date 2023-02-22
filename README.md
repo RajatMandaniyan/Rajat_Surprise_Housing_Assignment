@@ -6,7 +6,7 @@ A US-based housing company named Surprise Housing has decided to enter the Austr
  
 The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
- 
+
 The company wants to know:
 
 Which variables are significant in predicting the price of a house, and
@@ -15,53 +15,25 @@ How well those variables describe the price of a house.
 
 Also, determine the optimal value of lambda for ridge and lasso regression.
 
- 
 Business Goal 
 
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
-Assignment Part-II
-The following questions are the second part of the graded assignment. Please submit the answers in one PDF file. For writing normal text, please use MS Word (or similar software that can convert documents to PDF). For equations and figures, you can write/draw them on a blank sheet of paper using a pen, click images and upload them in the same Word document.
+The tasks performed in the model presented below are:
+Importing and understading the data.
+Miising value treatment and outlier analysis
+Exploratory data analysis to find out the inference about the data and its correlation with the target variables.
+Tranformation of the target variable to handle the data skewness.
+Data preprocession like Label encoding and ceration of dummies.
+Test train split and Feature scaling
+Data modelling using RFE to identify the top 30 variables.
+Ridge and Lasso Regression to find the top feature variables and finding the optimal alpha value
 
- 
-The final submission will be in the form of one PDF file. A sample PDF to illustrate the submission format is provided below.
-
- 
-
-Note: DO NOT copy or paste answers from anywhere, and type the answers in your own words; your solution files will be tested using automatic plagiarism checkers and will attract a heavy penalty if plagiarism is detected.
-
-
-Please limit your answers to less than 500 words per question.
- 
-
-Question 1
-
-What is the optimal value of alpha for ridge and lasso regression? What will be the changes in the model if you choose double the value of alpha for both ridge and lasso? What will be the most important predictor variables after the change is implemented?
-
- 
-Question 2
-
-You have determined the optimal value of lambda for ridge and lasso regression during the assignment. Now, which one will you choose to apply and why?
-
- 
-Question 3
-
-After building the model, you realised that the five most important predictor variables in the lasso model are not available in the incoming data. You will now have to create another model excluding the five most important predictor variables. Which are the five most important predictor variables now?
-
- 
-Question 4
-
-How can you make sure that a model is robust and generalisable? What are the implications of the same for the accuracy of the model and why?
- 
-
-The sample solution format is attached below. 
-
-Subjective Questions - Sample PDF Format
-Download
-The evaluation rubrics for both parts of the assignment are given on the next page.
-
- 
-You need to submit a GitHub repository link that contains the above files. You need to write a README.md for the GitHub repository. Make sure your GitHub link is public. 
-
-Please find a template of the README.md file. You can also create your own template but make sure a brief description of your project is written in this file. 
-
+Steps followed to build this model
+Importing Libraries
+Data Understanding
+Data Preparation
+Data Exploration
+Data Preprocessing
+Data Modeling
+Inference and Recomendation
